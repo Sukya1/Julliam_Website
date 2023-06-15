@@ -15,18 +15,26 @@ ul {
 li {
     float: left;
 }
-li a {
+li a{
     display: inline-block;
     color: white;
     text-align: center;
     padding: 22px 16px;
     text-decoration: none;
 }
+#sideBar {
+   float:right;
+   padding-right: 10px;
+
+}
+#homepic{
+    background-color: #0091b4;
+}
 #navBar input[type = text] {
-    padding: 3px;
+    padding: 4px;
     border: none;
     margin-top: 19px;
-    margin-right: 16px;
+    margin-right: 1px;
     margin-left: 30px;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
@@ -41,8 +49,11 @@ li a {
     height: 40px;
 }
 #navBar button {
+    padding-left: 0px;
+    width: 25px;
+    height:26px;
     border-radius: 2px;
-    margin-top: 17px;
+    margin-top: 19px;
     
 }
 #homeimg {
@@ -57,11 +68,11 @@ li a {
     font-style: italic;
     text-align: center;
     background-color: #848483;
+    width: 100%;
 }
 #testimonials img {
     width: 60%;
     height: 50%;
-    
 }
 #testimonials p {
     padding-left: 20px;
@@ -81,4 +92,41 @@ li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     font-style: italic;
+}
+
+
+#footer li a {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.fa {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 5px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-size: 5px;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+body {
+    background-color:#0091b4;
 }
