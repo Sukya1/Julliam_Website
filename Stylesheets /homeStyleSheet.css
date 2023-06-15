@@ -1,4 +1,3 @@
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,6 +20,9 @@ li a{
     text-align: center;
     padding: 22px 16px;
     text-decoration: none;
+}
+#navBar a:hover, #footer a:hover {
+    color:black;
 }
 #sideBar {
    float:right;
@@ -86,7 +88,7 @@ li a{
     background-color:#0091b4;
 }
 
-#mission p {
+#mission p, #learnp p {
     margin-left: 400px;
     margin-right: 400px;
     font-size: large;
@@ -96,7 +98,10 @@ li a{
     font-weight: 100;
     font-style: italic;
 }
-
+#mission h2 {
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in;
+}
 
 #footer li a {
     font-size: 13px;
@@ -132,4 +137,54 @@ li a{
   
 body {
     background-color:#0091b4;
+}
+table {
+    font-family: "Taviraj", Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #030303;
+    text-align: left;
+    padding: 8px;
+    overflow:scroll;
+  }
+  th {
+    text-align: center;
+  }
+  
+  #table h2, #form h2, #learn h2 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #121212;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 7px 5px 
+    
+  }
+  table button {
+    border-radius: 12px;
+    background-color: yellow;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .form {
+      display:flex;
+      justify-content: center;
+  }
+  .form input[type = text] {
+    padding-right: 60px;
+    margin-right: 10px;
+  }
+
+#learn h2 {
+  animation-name: header;
+  animation-duration: infinite;
+}
+@keyframes header {
+  from {color: rgb(6, 6, 6);}
+  to {color: yellow;}
 }
