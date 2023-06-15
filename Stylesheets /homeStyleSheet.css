@@ -88,7 +88,7 @@ li a{
     background-color:#0091b4;
 }
 
-#mission p, #learnp p {
+#mission p {
     margin-left: 400px;
     margin-right: 400px;
     font-size: large;
@@ -139,7 +139,7 @@ body {
     background-color:#0091b4;
 }
 table {
-    font-family: "Taviraj", Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Taviraj', Georgia, 'Times New Roman', Times, serif;
     border-collapse: collapse;
     width: 100%;
   }
@@ -152,6 +152,7 @@ table {
   }
   th {
     text-align: center;
+    font-family: 'Rowdies', 'Taviraj', Georgia, 'Times New Roman';
   }
   
   #table h2, #form h2, #learn h2 {
@@ -180,11 +181,44 @@ table {
     margin-right: 10px;
   }
 
-#learn h2 {
-  animation-name: header;
-  animation-duration: infinite;
+.heading {
+  animation-name: slidein;
+  /* time it takes for the animation to complete one lap */
+  animation-duration: 1s; 
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  /* Number of time to run the animation */
+  animation-iteration-count: 1;
+  animation-direction: noraml;
+  
+  animation-fill-mode: none;
+
+
 }
-@keyframes header {
-  from {color: rgb(6, 6, 6);}
-  to {color: yellow;}
+@keyframes slidein {
+  from {
+    transform:translate(-300px)
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+#aboutpage {
+  display: flex;
+  text-align: center;
+}
+#aboutpage img {
+  padding-top: 20px;
+  width:300px;
+  height:200px
+}
+#aboutpage p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    line-height: 170%;
+    text-align: center;
+    font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
 }
