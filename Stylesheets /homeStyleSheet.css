@@ -43,10 +43,13 @@ li a{
     width: 15px;
     height: 15px;
 }
+.cart {
+    padding-right: 1px;
+}
 #cart {
-    margin-top: 10px;
-    width: 30px;
-    height: 40px;
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
 }
 #navBar button {
     padding-left: 0px;
