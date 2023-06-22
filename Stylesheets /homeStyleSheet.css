@@ -1,38 +1,26 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 10px;
-    overflow: hidden;
-    background-color: #4a4a47;
-}
 #img {
-    padding-top: 5px;
+    
     width: 60px;
     height:60px;
 }
-
-li {
-    float: left;
+.navbar {
+  background-color:#4a4a47;
 }
-li a{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 22px 16px;
-    text-decoration: none;
+.navbar a, .navbar li {
+  color: white;
+  font-size: medium;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 16px;
+  text-decoration: none;
 }
-#navBar a:hover, #footer a:hover {
-    color:black;
+.navbar a:hover, #footer a:hover {
+  color:black;
 }
-#sideBar {
-   float:right;
-   padding-right: 10px;
-
-}
-#homepic{
+ #homepic{
     background-color: #0091b4;
 }
-#navBar input[type = text] {
+.navbar input[type = text] {
     padding: 4px;
     border: none;
     margin-top: 19px;
@@ -41,102 +29,44 @@ li a{
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
-#search-icon {
-    width: 15px;
-    height: 15px;
-}
-.cart {
-    padding-right: 1px;
-}
-#cart {
-    margin-top: 20px;
-    width: 25px;
-    height: 25px;
-}
-#navBar button {
-    padding-left: 0px;
-    width: 25px;
-    height:26px;
-    border-radius: 2px;
-    margin-top: 19px;
-    
-}
+
 #homeimg {
     width: 100%;
     height: 500px;
 
 }
-#testimonials {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row;
+.section2 {
+    padding-top: 30px;
     font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: #848483;
-    width: 100%;
+    background-color: #d5d5d4;
 }
-#testimonials img {
+.section2 img {
+    border: 1px solid;
+    border-radius: 65%;
+    background-color: orange;
     width: 60%;
     height: 50%;
 }
-#testimonials p {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 #mission {
     text-align: center;
-    background-color:#0091b4;
 }
 
 #mission p {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 25vw;
+    margin-right: 25vw;
     font-size: large;
-    line-height: 170%;
+    line-height: 180%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
-    font-style: italic;
+    padding-bottom: 10px;
 }
 #mission h2 {
     animation: mymove 5s infinite;
     animation-timing-function: ease-in;
-}
-
-#footer li a {
-    font-size: 13px;
-    padding-left: 10px;
-    padding-top: 20px;
-}
-.fa {
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 5px;
-    width: 10px;
-    text-align: center;
-    text-decoration: none;
-    background-size: 5px;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-body {
-    background-color:#0091b4;
 }
 table {
     font-family: 'Taviraj', Georgia, 'Times New Roman', Times, serif;
@@ -221,4 +151,4 @@ table {
     font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     font-style: italic;
-}
+} 
